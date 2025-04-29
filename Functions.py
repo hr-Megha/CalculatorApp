@@ -13,3 +13,8 @@ str2,
 str3,
 str4
 )
+
+print(len(str))
+print(str.count('name'))
+print(str. find('name'))
+print(type(str))
