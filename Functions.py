@@ -7,3 +7,9 @@ str2=str.lower()
 str3=str.capitalize()
 
 str4=str.replace('e','a')
+print (
+(str1),
+str2,
+str3,
+str4
+)

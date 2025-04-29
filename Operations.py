@@ -1,14 +1,14 @@
 def add(a,b):    
-    return print( 'Addition :', a+b)
+    return print( 'Addition of ', a, 'and', b,'is', a+b)
 
 def subtract(a,b):
-    return print('Subtraction :', a-b)
+    return print('Subtraction of ',a, 'and', b, 'is', a-b)
 
 def Multiplication(a,b):
-    return print('Multiplication :' , a*b)
+    return print('Multiplication of ' ,a, 'and', b, 'is', a*b)
 
 def Division(a,b):
-    return print('Division : ', a/b)
+    return print('Division of ',a,'and',b,'is', a/b)
     
 print("Select Operation: +, -, % , *")
 choice = input("Enter choice: ")
