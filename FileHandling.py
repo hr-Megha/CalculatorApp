@@ -7,6 +7,13 @@ Open , read and write Modes.
 3. -->Open Mode: This mode is Used whenever you want to open your text file for reading ,writing or doing some other stuffs
    -->Read Mode: This mode is used whenever you want to read the text which is already stored in your text file.
    -->write mode : this mode is used whenever you want to write in your text file that is .txt file.
+Mode	Description
+"r" -   Read (default)
+"w" - 	Write (overwrites)
+"a"	-   Append
+"x"	-   Create file (fails if exists)
+"r+"-	Read and write
+
 '''
 
 f= open("test.txt","w") # to write "w"
@@ -17,8 +24,6 @@ content=f.read()
 print("File Content",content)
 
 
-k=open("demo.txt","w")
-k.write("I am learning file handling")
-f.close()   #its good practice to close once it is done
+
 
 
