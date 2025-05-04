@@ -12,3 +12,14 @@ except:
     Exception
 
 '''
+
+a=input("enter the first number :")
+b=input("enter the second Number :")
+
+try:
+    c=int(a)+int(b)
+    print(c)
+
+
+except Exception as e:
+    print("error in the try block")
