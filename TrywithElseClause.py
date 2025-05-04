@@ -20,9 +20,9 @@ a=int(input("Enter the number :"))
 
 try :
     if a % 2 == 0 :
-        print(f"{b} is an even number")
+        print(f"{a} is an even number")
     else:
-        print(f"{b} is an odd number")
+        print(f"{a} is an odd number")
 except Exception as e:
     print(e)
 else:
