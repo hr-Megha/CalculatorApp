@@ -3,6 +3,10 @@
 #1. Enqueue
 #2. Dequeue
 
+# Advantages
+# Maintains data in FIFO manner
+# Insertion from begining and deletion from end takes  O(1) time
+
 class MyCircularQueue():
     def __init__(self,k):
         self.k=k
