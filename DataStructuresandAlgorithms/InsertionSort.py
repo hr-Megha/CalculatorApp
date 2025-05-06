@@ -11,6 +11,16 @@ which in turn are sorted
 8. we shift the elements from sorted by one element until an appropriate location is not found for the picked element.
 9. This continues till all the elements get exhausted.
 
+Best time complexity : O(n)
+Averge time complexity : O(n^2)
+worst time complexity  : O(n^2)
+
+No auxiliary space is required in insertion sort implementation that 
+is we are not using any arrays, linked list, stack, queue etc to store our elements 
+
+Hence space complexity is O(1)
+
+
 Insertion sort - Algorithm
 Insertion Sort(arr,size)
 consider 1st element as sorted part
