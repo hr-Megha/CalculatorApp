@@ -7,6 +7,10 @@
 # Maintains data in FIFO manner
 # Insertion from begining and deletion from end takes  O(1) time
 
+# Disadvantages
+# Manipulation is restricted front and rear
+# Not much flexible
+
 class MyCircularQueue():
     def __init__(self,k):
         self.k=k
