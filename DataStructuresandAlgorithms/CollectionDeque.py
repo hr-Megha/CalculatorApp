@@ -20,4 +20,4 @@ print(stack)
 stack.pop()
 print(stack)
 
-# only the thing is Deque is faster than list because pop and append functions are faster
+# only the thing is Deque is faster than list because pop and append functions are faster in deque 
